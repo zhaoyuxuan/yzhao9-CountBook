@@ -1,0 +1,7 @@
+#Sun Oct 01 11:51:48 MDT 2017
+base.0=/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f5449fe3cf156b8418d4dc861a5c8de1d2a8392f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_112d148bb9bdaf9f9f4ccab54261bce6930987d1/classes.dex
+base.1=/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_112d148bb9bdaf9f9f4ccab54261bce6930987d1
+file.0=/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f5449fe3cf156b8418d4dc861a5c8de1d2a8392f/classes.dex
