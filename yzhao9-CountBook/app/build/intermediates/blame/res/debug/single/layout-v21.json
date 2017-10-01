@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/yuxuanzhao/.android/build-cache/032664a26acae70a997387c8500835d47e0ef7be/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/yuxuanzhao/.android/build-cache/032664a26acae70a997387c8500835d47e0ef7be/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/yuxuanzhao/.android/build-cache/032664a26acae70a997387c8500835d47e0ef7be/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/yuxuanzhao/.android/build-cache/032664a26acae70a997387c8500835d47e0ef7be/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

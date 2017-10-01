@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/yuxuanzhao/.android/build-cache/032664a26acae70a997387c8500835d47e0ef7be/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/yuxuanzhao/.android/build-cache/032664a26acae70a997387c8500835d47e0ef7be/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/yuxuanzhao/.android/build-cache/032664a26acae70a997387c8500835d47e0ef7be/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/yuxuanzhao/yzhao9-CountBook/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/yuxuanzhao/.android/build-cache/032664a26acae70a997387c8500835d47e0ef7be/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

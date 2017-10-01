@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/new_stuff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:background="#a4dbc8">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="78dp"
+            android:layout_height="68dp"
+            android:layout_weight="0.20"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_field"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.46"
+                android:text=" Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/date_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.25"
+                android:text="Date"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/number_field"
+            android:layout_width="43dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/decrement"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_purple"
+            android:text="-"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/increment"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:text="+"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/delete_button"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="x"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/edit_it"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_orange_light"
+                    android:text="Edit"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
