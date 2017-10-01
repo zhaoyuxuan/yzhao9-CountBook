@@ -21,15 +21,34 @@ import java.util.ArrayList;
 
 /**
  * Created by yuxuanzhao on 2017-09-27.
- */
+ * @author Yuxuan Zhao
+ *
+ * */
+
 
 public class CustomAdapter extends ArrayAdapter<Counter> {
+     /** returns a customadapter that allows us to append the button into the listview
+      * construct the class
+      * @param context the context that the class is called
+      * @param  all_info the array that stores all the counters
+      * @return the customarrayAdapter created
+      * @see View
+      * @throws  NumberFormatException
+ **/
+
 
     CustomAdapter(Context context, ArrayList<Counter> all_info){
         super(context,R.layout.newcount,all_info);
 
     }
 
+    /**
+     * override the getview function so that the button can be added to the main view
+     * @param position the position on the listView
+     * @param convertView the view that is converted
+     * @param parent
+     * @return the new view we just created
+     */
     @Override
     public View getView(final int position, View convertView, final ViewGroup parent){
         LayoutInflater Inflater= LayoutInflater.from(getContext());
@@ -148,6 +167,7 @@ public class CustomAdapter extends ArrayAdapter<Counter> {
 
             }
         });
+
 
 
         return customview;

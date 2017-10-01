@@ -32,18 +32,41 @@ import java.util.Locale;
 
 
 /**
- * 
+ * MainActivity
+ *
+ * Version 1.0
+ *
+ * October 1, 2017
+ *
+ *
+ * Copyright(c) 2017 Yuxuan Zhao. CMPUT301, University of alberta - All Rights Reserved
+ * You may use distribute or modify this code under terms and conditions of the Code of Student Behaviour at University of Alberta.
+ * You can find a copy of the license in this project. Otherwise please contact contact@abc.ca
+ *
  */
+
+/**
+ *
+ * @author Yuxuan Zhao
+ * @version 1.0
+ * @since 1.0
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     public static ArrayList<Counter> all_info= new ArrayList<Counter>();
     public static TextView count_number;
     public  ArrayList<String> name_list = new ArrayList<String>();
     public  ArrayList<String> value_list= new ArrayList<String>();
-
-    private static final String FILENAME = "file.sav";
     public ListAdapter Adapter;
+    private static final String FILENAME = "file.sav";
 
+
+    /**
+     * it is called when the user wants to pass it the information for the new counter,
+     * the alert dialog shows up after it is called
+     * @param view the view that user clicks
+     */
     public void newCounter(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         LayoutInflater inflater = this.getLayoutInflater();
@@ -99,6 +122,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    /**
+     * the function is called when a new counter is added
+     */
     public void add_new(){
 
         final ListView list_view= (ListView) findViewById(R.id.mainList);
@@ -111,6 +138,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    /**
+     * load the saved file from local
+     */
     private void loadFromFile() {
         try {
             FileInputStream fis = openFileInput(FILENAME);
@@ -134,6 +165,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    /**
+     * save the data locally
+     * @param context context where the function is called
+     */
     public static void saveInFile(Context context) {
         try {
             FileOutputStream fos = context.openFileOutput(FILENAME,
